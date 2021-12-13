@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="server.jnlp">
+    <information>
+        <title>server</title>
+        <vendor>Schumann</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="10.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="server.jar" size="10698" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="Server.Main" name="Main"/>
+</jnlp>
+
